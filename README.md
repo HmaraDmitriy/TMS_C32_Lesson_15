@@ -10,8 +10,6 @@ or
 int val = Integer.valueOf(str);
 To finish entering, enter the word "exit".
 When casting a string to a number, you should take into account the possibility of exceptions.
-Some useful code examples for casting a string to a number can be found at
-https://www.geeksforgeeks.org/how-to-convert-a-string-to-an-int-in-java/
 Display even numbers from the collection on the screen.
 
 Task 2
