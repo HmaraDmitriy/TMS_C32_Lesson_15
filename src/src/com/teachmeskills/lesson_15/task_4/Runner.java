@@ -7,7 +7,8 @@ package com.teachmeskills.lesson_15.task_4;
 
 import com.teachmeskills.lesson_15.task_4.group.Members;
 
-import java.util.LinkedList;
+import java.util.HashSet;
+import java.util.Set;
 
 public class Runner {
     public static void main(String[] args) {
@@ -31,7 +32,7 @@ public class Runner {
         Members members17 = new Members("Oleg",17,"m","Student");
 
 
-        LinkedList<Members> list = new LinkedList<>();
+        Set<Members> list = new HashSet<>();
         list.add(members1);
         list.add(members2);
         list.add(members3);
